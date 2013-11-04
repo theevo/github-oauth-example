@@ -6,6 +6,7 @@ GEM
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
     method_source (0.8.2)
+    mime-types (2.0)
     multipart-post (1.2.0)
     octokit (2.5.0)
       sawyer (~> 0.5.1)
@@ -16,6 +17,8 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     sawyer (0.5.1)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
@@ -32,4 +35,5 @@ PLATFORMS
 DEPENDENCIES
   octokit
   pry
+  rest-client
   sinatra
